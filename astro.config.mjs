@@ -23,7 +23,7 @@ export default defineConfig({
     "/docs": "/docs/getting-started/introduction",
     "/api": "/api/introduction",
   },
-  site: "https://zero.paulapplegate.com",
+  site: "https://zeroindex.paulapplegate.com",
   adapter: vercel(),
   integrations: [
     sitemap({
