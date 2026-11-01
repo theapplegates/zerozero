@@ -666,5 +666,48 @@
         1920
       ]
     }
+  },
+  "paulapplegate-com/images/blog/Game_Title_": {
+    "publicId": "images/blog/Game_Title_",
+    "cloudName": "paulapplegate-com",
+    "width": 2528,
+    "height": 1696,
+    "version": 1793561328,
+    "sizes": "(max-width: 720px) calc(100vw - 3rem), 672px",
+    "widths": {
+      "jxl": [
+        50,
+        473,
+        738,
+        943,
+        1301,
+        1335,
+        1508,
+        1720,
+        1853,
+        1920
+      ],
+      "avif": [
+        50,
+        386,
+        940,
+        1312,
+        1757,
+        1920
+      ],
+      "webp": [
+        50,
+        339,
+        478,
+        860,
+        1081,
+        1268,
+        1462,
+        1612,
+        1782,
+        1913,
+        1920
+      ]
+    }
   }
 }

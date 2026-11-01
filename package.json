@@ -8,7 +8,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "cloudinary:breakpoints": "node scripts/cloudinary-breakpoints.mjs",
+    "cloudinary:breakpoints": "node --env-file=.env.local scripts/cloudinary-breakpoints.mjs",
     "astro": "astro"
   },
   "dependencies": {

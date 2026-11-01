@@ -12,8 +12,8 @@ import { getAssistantChunks, keywordSearch, type Chunk } from "@/lib/assistant";
 export const prerender = false;
 
 const API_ROOT = "https://generativelanguage.googleapis.com/v1beta";
-const CHAT_MODEL = "gemma-4-26b-a4b-it";
-const EMBEDDING_MODEL = "gemini-embedding-2";
+const CHAT_MODEL = "gemma-4-26B-A4B-it-GGUF:UD-Q4_K_M";
+const EMBEDDING_MODEL = "embeddinggemma-2:740m";
 
 const env = (name: string) =>
   (typeof process !== "undefined" ? process.env[name] : undefined) ??
